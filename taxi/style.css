@@ -1,0 +1,81 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin: 20px;
+    background-image: url('taxi1.png'); /* Substitua 'sua-imagem.jpg' pelo caminho da sua imagem de fundo */
+    background-size: cover; /* Garante que a imagem cubra todo o corpo */
+    background-position: center center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita a repetição da imagem */
+    color: #181616; /* Cor do texto para melhor visibilidade na imagem de fundo */
+    
+}
+h1{
+    font-weight: 700;
+    background-color: rgba(150, 150, 62, 0.477);
+    border-radius: 20px;
+}
+#result {
+    font-size: 18px;
+    margin-top: 10px;
+    font-weight: 700;
+    background-color: rgba(150, 150, 62, 0.477);
+}
+
+#error {
+    color: red;
+    margin-top: 10px;
+}
+
+label{
+    font-weight: 700;
+    background-color: rgba(150, 150, 62, 0.401);
+}
+
+select{
+    font-weight: 700;
+    background-color: rgba(150, 150, 62, 0.466);
+}
+
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 90%;
+    font-weight: 700;
+    background-color: rgba(150, 150, 62, 0.333);
+    border-radius: 10px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    font-weight: 700;
+    background-color: rgba(150, 150, 62, 0.337);
+    border-radius: 10px;
+}
+
+th {
+    background-color: #f2f2f2;
+    font-weight: 700;
+    background-color: rgba(150, 150, 62, 0.486);
+    border-radius: 10px;
+}
+
+/* Estilo para tornar o botão mais amigável em telas pequenas */
+button {
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: rgb(150, 150, 62);
+}
+
+/* Ajustes para telas pequenas */
+@media only screen and (max-width: 600px) {
+    table {
+        width: 100%;
+    }
+
+    button {
+        width: 100%;
+    }
+}
